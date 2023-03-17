@@ -53,6 +53,11 @@
 							"    pm.expect(jsonData.body.user.hash_id).to.eql(pm.variables.get(\"hashid\"));",
 							"});",
 							"",
+							"pm.test(\"Validate the Login API given the hash_id in the reponse which we have used in the request body\", function () {",
+							"    pm.expect(jsonData.body.user.hash_id).to.eql(pm.variables.get(\"hashid\"));",
+							"});",
+							"",
+							"pm.globals.set(\"jwt\", jsonData.body.jwt);",
 							"pm.globals.set(\"jwt\", jsonData.body.jwt);"
 						],
 						"type": "text/javascript"
