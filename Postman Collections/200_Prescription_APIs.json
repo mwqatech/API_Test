@@ -40,6 +40,7 @@
 							"    pm.expect(jsonData.body.user.hash_id).to.eql(pm.variables.get(\"hashid\"));",
 							"});",
 							"",
+							"pm.globals.set(\"jwt\", jsonData.body.jwt);",
 							"pm.globals.set(\"jwt\", jsonData.body.jwt);"
 						],
 						"type": "text/javascript"
