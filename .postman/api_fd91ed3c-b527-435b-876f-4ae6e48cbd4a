@@ -15,7 +15,5 @@ files[] = {"id":"24095397-2b2c2575-a2f4-4df2-9e3d-d9ef662acb02","path":"prescrip
 
 [config.relations.apiDefinition]
 rootDirectory = Postman Collections
-files[] = {"path":"200_Prescription_APIs.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
-type = openapi:3
