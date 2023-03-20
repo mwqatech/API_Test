@@ -58,6 +58,7 @@
 							"});",
 							"",
 							"pm.globals.set(\"jwt\", jsonData.body.jwt);",
+							"pm.globals.set(\"jwt\", jsonData.body.jwt);",
 							"pm.globals.set(\"jwt\", jsonData.body.jwt);"
 						],
 						"type": "text/javascript"
